@@ -11,5 +11,5 @@ server.listen(port);
 
 function bar()
 {
-    return "Margie and Charlie 03";
+    return "Margie and Charlie 03s";
 }
