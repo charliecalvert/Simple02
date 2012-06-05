@@ -11,5 +11,5 @@ server.listen(port);
 
 function bar()
 {
-    return "bar foo";
+    return "bar Margie bar";
 }
