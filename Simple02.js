@@ -6,7 +6,7 @@ function run(res)
 {
 	function bar()
 	{
-		return "Margie and Charlie 03s";
+		return "Margie and Charlie 03 on port: " + port;
 	}
 
 	fs.readFile('./data.html', function (err, html) {
@@ -24,5 +24,6 @@ function run(res)
 var server = http.createServer(function (req, res) {
 	run(res);
 });
+
 
 server.listen(port);
