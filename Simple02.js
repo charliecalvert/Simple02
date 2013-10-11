@@ -2,11 +2,12 @@ var http = require('http');
 var port = process.env.C9_PORT || 1337;
 var fs = require('fs');
 
+// A Comment I just added
 function run(res)
 {
 	function bar()
 	{
-		return "Margie and Charlie 03s";
+		return "Margie and Charlie 03 on port: " + port;
 	}
 
 	fs.readFile('./Data.html', function (err, html) {
@@ -24,5 +25,6 @@ function run(res)
 var server = http.createServer(function (req, res) {
 	run(res);
 });
+
 
 server.listen(port);
