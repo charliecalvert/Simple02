@@ -9,7 +9,7 @@ function run(res)
 		return "Margie and Charlie 03s";
 	}
 
-	fs.readFile('./data.html', function (err, html) {
+	fs.readFile('./Data.html', function (err, html) {
 		if (err) {
 			throw err; 
 		}   
