@@ -24,11 +24,11 @@ function first(request, response) {
 		response.write(css);
 	} if (path === '/About.html') {
 		var css = fs.readFileSync(__dirname + path);
-		response.writeHead(200, {'Content-Type': 'text/html'});
+		response.writeHead(200, {'Content-Type': 'text/html', 'Content-Length': '1877'});
 		response.write(css);
 	} if (path === '/Contacts.html') {
 		var css = fs.readFileSync(__dirname + path);
-		response.writeHead(200, {'Content-Type': 'text/html'});
+		response.writeHead(200, {'Content-Type': 'text/html', 'Content-Length': '1968'});
 		response.write(css);
 	} else {
 	    var html = fs.readFileSync(__dirname + '/index.html');
