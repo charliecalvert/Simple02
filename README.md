@@ -12,8 +12,4 @@ And let's add a little more text.
 - items in my list
 - <http://www.github.com>
 
-<<<<<<< HEAD
 More stuff.
-=======
-Other stuff
->>>>>>> 00b8adb8178edd1580a7ca9650efdb1ede536d9a
