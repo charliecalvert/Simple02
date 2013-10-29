@@ -12,4 +12,4 @@ And let's add a little more text.
 - items in my list
 - <http://www.github.com>
 
-More stuff. Foo Bar
+More stuff. Foo Bar Goober
