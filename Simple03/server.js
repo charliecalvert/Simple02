@@ -8,11 +8,11 @@ function getPath(request) {
 }
 
 function onRequest(request, response) {
-    var pathname = getPath(request);
-    console.log("Request for " + pathname + " received.");
-    response.writeHead(200, {"Content-Type": "text/plain"});
-    response.write("Hello World");
-    response.end();
+	var pathname = getPath(request);
+	console.log("Request for " + pathname + " received.");
+	response.writeHead(200, {"Content-Type": "text/plain"});
+	response.write("Hello World");
+	response.end();
 }
 
 function first(request, response) {
@@ -23,11 +23,11 @@ function first(request, response) {
 		response.writeHead(200, {'Content-Type': 'text/css'});
 		response.write(css);
 	} else {
-	    var html = fs.readFileSync(__dirname + '/Test01.html');
+		var html = fs.readFileSync(__dirname + '/Test01.html');
 		response.writeHead(200, {'Content-Type': 'text/html'});
 		response.write(html);
 	}
-    response.end();
+	response.end();
 }
 
 http.createServer(first).listen(port);
