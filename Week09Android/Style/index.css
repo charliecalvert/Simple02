@@ -49,3 +49,7 @@ img.half {
     float: left;
 }
 
+.carousel-caption h1 {
+  	font-size: 5;
+}
+
