@@ -141,7 +141,7 @@ function walkDirs(folderName) {
 
 }
 
-walkDirs('Images')
+walkDirs('Images');
 walkDirs('Source');
 walkDirs('Style');
 writeFile('index.html', '/index.html', false);
