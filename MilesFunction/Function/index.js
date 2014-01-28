@@ -2,7 +2,7 @@
 /* jshint strict: false */
 
 
-var milesFunction = function() {
+var MilesFunction = function() {
 	
 	var feetPerMile = 5280;
 	
@@ -11,5 +11,5 @@ var milesFunction = function() {
 	};
 };
 
-var result = new milesFunction().milesConvert(3);
+var result = new MilesFunction().milesConvert(3);
 console.log(result);
