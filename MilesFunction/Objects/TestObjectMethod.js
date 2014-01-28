@@ -2,9 +2,13 @@
  * @author Charlie Calvert
  */
 
-describe("Miles Function Project", function() {'use strict';
+describe("Object Method Project", function() {'use strict';
 
-    it("can access data", function() {
+    it("can access data called a", function() {
+        expect(objectMethod.a).toBe(1);
+    });
+    
+    it("can access data called b", function() {
         expect(objectMethod.a).toBe(1);
     });
 

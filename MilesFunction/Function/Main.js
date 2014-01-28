@@ -19,6 +19,9 @@ var MyFunc = function() {
 	privateFunction();
 };
 
+console.log("------------------");
+console.log(" My Func");
+console.log("------------------");
 var myFunc = new MyFunc();
 myFunc.sayName();
 
