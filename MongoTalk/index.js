@@ -11,14 +11,14 @@ var QueryMongo = (function() {
 	var url02 = 'mongodb://192.168.2.19:27017/test';
 
 	function QueryMongo() {
+
+		// Open the test database that comes with MongoDb
 		MongoClient.connect(url02, function(err, database) {
 			if (err) {
 				throw err;
 			}
 
 			insertCollection(database, 'test_insert', { f : 7 });
-			// getCollection(database);
-			
 
 		});
 	}
@@ -40,7 +40,8 @@ var QueryMongo = (function() {
 
 	};
 
-	var insertCollection = function(db, collectionName, objectToInsert) {
+	// Will create collection if it does not exist
+	var insertIntoCollection = function(db, collectionName, objectToInsert) {
 
 		var collection = db.collection(collectionName);
 		collection.insert(objectToInsert, function(err, docs) {
