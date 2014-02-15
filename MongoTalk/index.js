@@ -13,12 +13,12 @@ var QueryMongo = (function() {
 	function QueryMongo() {
 
 		// Open the test database that comes with MongoDb
-		MongoClient.connect(url02, function(err, database) {
+		MongoClient.connect(url01, function(err, database) {
 			if (err) {
 				throw err;
 			}
 
-			insertCollection(database, 'test_insert', { f : 7 });
+			insertIntoCollection(database, 'test_insert', { f : 7 });
 
 		});
 	}
