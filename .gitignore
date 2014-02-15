@@ -7,3 +7,5 @@ MongoLabIn*
 .metadata
 *.zip
 Thumbs.db
+CordovaLib
+bin

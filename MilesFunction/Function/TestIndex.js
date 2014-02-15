@@ -11,7 +11,7 @@ describe("Miles Function Project Test Index", function() {	'use strict';
 	
 	it("cannot access private feetPerMile", function() {
 		var actual = new MilesFunction().feetPerMile;		
-		expect(actual).toBe(undefined);
+		expect(actual).toBeUndefined();
 	});	
 	
 	it("converts 2 miles to feet", function() {
