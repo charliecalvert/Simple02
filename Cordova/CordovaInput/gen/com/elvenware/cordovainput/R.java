@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.elvenware.testm01;
+package com.elvenware.cordovainput;
 
 public final class R {
     public static final class attr {
