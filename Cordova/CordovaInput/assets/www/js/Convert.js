@@ -2,21 +2,21 @@
  * @author Charlie Calvert
  */
 
-function Convert() {   
+function Convert() { 
     
-    var that = this;
-    var feetInOneMile = 5280;
-    
-    var feetToMilesPrivate = function() {
-        var miles = $("#dataInput").val();
-        var result = that.feetToMiles(miles);
-        $("#dataInput").val(result);
+     Convert.prototype.toFarenheit = function(userInput) {'use strict';    
+        userInput = (userInput - 32) * 5 / 9;
+        return userInput.toFixed(2);               
     };
-    
-    this.feetToMiles = function(miles) {
-        return miles * feetInOneMile;
+
+    Convert.prototype.toMiles = function(userInput) {'use strict';
+        userInput = userInput * 1.609344;        
+        return userInput.toFixed(2);        
     };
-    
-    $("#milesButton").click(feetToMilesPrivate);
-    
-}
+
+    Convert.prototype.calculateSquareRoot = function(userInput) {'use strict';
+        userInput = Math.sqrt(userInput);
+        return userInput.toFixed(2);                
+    };
+};
+
