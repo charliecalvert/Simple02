@@ -7,3 +7,5 @@ MongoLabIn*
 .metadata
 *.zip
 Thumbs.db
+.c9
+MongoData01.js
