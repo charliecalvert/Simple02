@@ -1,0 +1,19 @@
+{
+  "name": "MilesFunction",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-compress": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-mocha-test": "latest"
+  },
+  "devDependencies": {
+
+  }
+}

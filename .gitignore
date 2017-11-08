@@ -7,5 +7,9 @@ MongoLabIn*
 .metadata
 *.zip
 Thumbs.db
+.idea
 .c9
 MongoData01.js
+CordovaLib
+bin
+
