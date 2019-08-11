@@ -1,0 +1,16 @@
+{
+  "name": "simple02",
+  "version": "1.0.0",
+  "description": "Simple node app",
+  "main": "Simple02.js",
+  "scripts": {
+      "start": "node Simple02.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Charlie Calvert",
+  "license": "MIT"
+}
