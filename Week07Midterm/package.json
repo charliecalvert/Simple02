@@ -5,7 +5,7 @@
 		"start": "node index.js"
 	},
 	"dependencies": {
-		"aws-sdk": "^2.507.0",
+		"aws-sdk": "^2.814.0",
 		"walk": "2.3.14"
 	}
 }
